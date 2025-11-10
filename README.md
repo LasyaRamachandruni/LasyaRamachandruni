@@ -42,7 +42,7 @@
 
 ## 📫 Contact
 - Email: swathisrilasyamayukha.ramachandruni@sjsu.edu
-## Hi there 👋
+
 
 <!--
 **LasyaRamachandruni/LasyaRamachandruni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
