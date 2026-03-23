@@ -1,60 +1,80 @@
-# Hi, I’m Lasya Ramachandruni 👋
+# Lasya Ramachandruni
 
-**Data Scientist • AI Researcher** in San Jose, CA. Innovative Data Scientist (M.S., SJSU, GPA 3.90/4.00) focused on scalable AI, edge deployment, and actionable insights. Track record across quantization, RAG systems, and autonomous agents with measurable results.
+**ML Systems • Inference Optimization • LLM Applications**
+M.S. Data Science @ SJSU (GPA 3.90/4.00) · San Jose, CA
+[📧 Email](mailto:swathisrilasyamayukha.ramachandruni@sjsu.edu)
 
-## 🔭 Featured Projects
-- **EdgeOpt: Edge-Optimized ONNX Models** — Unified CLI for pruning, quantization, and benchmarking on Raspberry Pi and Jetson Nano; reduced model size by 73% and improved inference speed by 7× with >90% accuracy on CIFAR-10.
-- **Opti Research Buddy: AI Literature System** — RAG system using LangChain, FAISS, and Google Gemini to synthesize across 100+ papers with a Streamlit UI.
-- **AI Twitter Assistant with Multi-Agent Reflection** — Dual-agent system with LangGraph + Gemini, 3 iterative critique cycles; boosted engagement potential by >30%; ~4,400 tokens/run with capped iterations.
-- **Basic React Agent with LangChain** — Modular agent with ReAct for autonomous reasoning, tool integration, and model switching.
-- **Customer Segmentation & Revenue Forecasting** — K-Means + linear regression to improve budget accuracy by 28%.
-- **Conversational AI Platform** — Voice-enabled interviews/training using Deepgram, Groq LLM, and Cartesia.
+---
 
-## 🛠️ Skills
-- **Languages**: Python, Java, C++, SQL, JavaScript
-- **ML/DL**: TensorFlow, PyTorch, Keras, scikit-learn, NLP
-- **Data**: Pandas, NumPy, FAISS, LangChain, LangGraph, LangSmith, Streamlit
-- **Big Data**: Apache Spark, Hadoop, Airflow
-- **Cloud**: AWS (Lambda, S3, DynamoDB), IBM Cloud
-- **DevOps**: Docker, Jenkins, Git, JIRA
-- **Databases**: PostgreSQL, Firebase, DynamoDB
-- **Viz**: Tableau, Matplotlib, Seaborn
+I build systems at the boundary between model experimentation and production reliability — inference pipelines, RAG systems, and multi-agent frameworks with a focus on latency, efficiency, and measurable outcomes.
 
-## 💼 Experience
-- **Business Analyst / Scrum Master**, Incedo Inc. (Mar 2022 – Mar 2024)
-  - Led Agile sprints and microservices migration, +30% efficiency, -25% latency.
-  - Automated QA testing, +20% coverage, -65% bugs.
-  - Delivered KPI dashboards for exec decision-making.
-- **Undergraduate Research Assistant**, JNTU(H) (Apr 2019 – Mar 2020)
-  - Built GAN-based image enhancement tools; improved quality metrics and downstream accuracy.
-  - Optimized data pipelines for robust AI workflows.
+---
 
-## 🎓 Education
-- **M.S., Data Science**, San Jose State University (Aug 2024 – Jul 2026) — GPA 3.90/4.00; Coursework: Machine Learning, Hypothesis Testing, Databases, Dimensionality Reduction
-- **B.Tech, Computer Science**, Gokaraju Rangaraju Institute of Engineering and Technology (Aug 2017 – Jul 2021) — Coursework: AI, Big Data, Cloud Computing, Data Structures; Thesis: RFM-based customer segmentation and predictive modeling
+## Featured Projects
 
-## 📜 Certificates
-- AWS Solutions Architect – Associate (2023)
-- AWS Cloud Practitioner (2023)
-- SAFe Scrum Master (2022)
-- Oracle Database Certified
-- Microsoft Technology Associate
+**[EdgeOpt](https://github.com/LasyaRamachandruni)** — Edge-Optimized Inference Pipeline
+Unified CLI for pruning, quantization, and ONNX-based benchmarking. Deployed and tested on Raspberry Pi and Jetson Nano. Achieved **73% model size reduction** and **7× inference speedup** while maintaining >90% accuracy on CIFAR-10.
+`Python` `ONNX` `PyTorch` `TensorFlow` `Raspberry Pi` `Jetson Nano`
 
-## 📫 Contact
-- Email: swathisrilasyamayukha.ramachandruni@sjsu.edu
+**[Opti Research Buddy](https://github.com/LasyaRamachandruni)** — AI Literature Synthesis System
+RAG pipeline using LangChain, FAISS, and Google Gemini to synthesize insights across 100+ academic papers. Reduced manual research time by 60%. Streamlit UI for interactive querying.
+`Python` `LangChain` `FAISS` `Gemini` `Streamlit` `RAG`
 
+**[AI Twitter Assistant](https://github.com/LasyaRamachandruni)** — Multi-Agent Reflection System
+Dual-agent system with LangGraph + Gemini running 3 iterative critique-and-refine cycles. Boosted content engagement potential by >30% at ~4,400 tokens/run with capped iteration budget.
+`Python` `LangGraph` `LangChain` `Gemini`
 
-<!--
-**LasyaRamachandruni/LasyaRamachandruni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**[Conversational AI Platform](https://github.com/LasyaRamachandruni)** — Voice-Enabled Interview Trainer
+Real-time voice interview and training system using Deepgram (STT), Groq LLM, and Cartesia (TTS). End-to-end latency-optimized pipeline for conversational AI use cases.
+`Python` `Deepgram` `Groq` `Cartesia`
 
-Here are some ideas to get you started:
+**[Customer Segmentation & Revenue Forecasting](https://github.com/LasyaRamachandruni)**
+K-Means clustering + linear regression on retail datasets. Improved budget prediction accuracy by 28% and enabled targeted strategic planning.
+`Python` `Scikit-learn` `SQL` `Pandas`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Experience
+
+**Student Assistant — Library Innovation Projects** · San José State University *(Mar 2025 – Present)*
+Built Python/SQL data extraction pipelines, automated library workflows (25% efficiency gain), and deployed interactive dashboards for leadership decision-making.
+
+**Instructional Student Assistant** · San José State University *(Jun 2025 – Aug 2025)*
+Taught UNIX/Linux scripting, Bash, and cloud tools (AWS, GCP, Docker) to 50+ students. Developed automated assessment and progress-tracking workflows.
+
+**Software Developer** · Leo MarCom Private Ltd. *(Apr 2023 – Jul 2024)*
+Built and optimized Python/JavaScript/SQL modules; reduced production bugs by 15%. Led agile cross-functional delivery cycles.
+
+**Business Analyst / Scrum Master** · Incedo Inc. *(Mar 2022 – Mar 2023)*
+Managed 10–15 concurrent analytics workstreams, improved on-time delivery by 30%, and built executive KPI dashboards.
+
+**Undergraduate Research Assistant** · JNTU(H) *(Apr 2019 – Mar 2020)*
+Built GAN-based image enhancement tools; optimized data pipelines for downstream model accuracy.
+
+---
+
+## Skills
+
+**Languages:** Python · SQL · JavaScript · Java · C++ · Bash
+**ML / DL:** PyTorch · TensorFlow · Keras · Scikit-learn · ONNX · Deep Learning · NLP
+**LLM / Agents:** LangChain · LangGraph · LangSmith · FAISS · RAG · Transformers
+**Cloud:** AWS (Lambda · S3 · DynamoDB) · GCP · IBM Cloud · Docker
+**Data:** Pandas · NumPy · Spark · Hadoop · Airflow · Tableau · Streamlit
+**Databases:** PostgreSQL · Firebase · DynamoDB
+
+---
+
+## Education
+
+**M.S. Data Science** · San Jose State University · 2024–2026 · GPA 3.90/4.00
+Coursework: Machine Learning, Hypothesis Testing, Databases, Dimensionality Reduction
+
+**B.Tech Computer Science** · GRIET, Hyderabad · 2017–2021
+Thesis: RFM-based customer segmentation and predictive modeling
+
+---
+
+## Certificates
+
+AWS Solutions Architect – Associate · AWS Cloud Practitioner · SAFe Scrum Master · Oracle Database Certified · Microsoft Technology Associate
+
