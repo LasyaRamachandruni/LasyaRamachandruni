@@ -12,23 +12,23 @@ I build systems at the boundary between model experimentation and production rel
 
 ## Featured Projects
 
-**[EdgeOpt](https://github.com/LasyaRamachandruni)** — Edge-Optimized Inference Pipeline
+**[EdgeOpt](https://github.com/LasyaRamachandruni/edgeopt)** — Edge-Optimized Inference Pipeline
 Unified CLI for pruning, quantization, and ONNX-based benchmarking. Deployed and tested on Raspberry Pi and Jetson Nano. Achieved **73% model size reduction** and **7× inference speedup** while maintaining >90% accuracy on CIFAR-10.
 `Python` `ONNX` `PyTorch` `TensorFlow` `Raspberry Pi` `Jetson Nano`
 
-**[Opti Research Buddy](https://github.com/LasyaRamachandruni)** — AI Literature Synthesis System
+**[Opti Research Buddy](https://github.com/LasyaRamachandruni/OptiResearch-Buddy)** — AI Literature Synthesis System
 RAG pipeline using LangChain, FAISS, and Google Gemini to synthesize insights across 100+ academic papers. Reduced manual research time by 60%. Streamlit UI for interactive querying.
 `Python` `LangChain` `FAISS` `Gemini` `Streamlit` `RAG`
 
-**[AI Twitter Assistant](https://github.com/LasyaRamachandruni)** — Multi-Agent Reflection System
+**[AI Twitter Assistant](https://github.com/LasyaRamachandruni/Langgraph_Reflection_Agent)** — Multi-Agent Reflection System
 Dual-agent system with LangGraph + Gemini running 3 iterative critique-and-refine cycles. Boosted content engagement potential by >30% at ~4,400 tokens/run with capped iteration budget.
 `Python` `LangGraph` `LangChain` `Gemini`
 
-**[Conversational AI Platform](https://github.com/LasyaRamachandruni)** — Voice-Enabled Interview Trainer
+**[Conversational AI Platform](https://github.com/SaipranavSripathi/AITalks)** — Voice-Enabled Interview Trainer
 Real-time voice interview and training system using Deepgram (STT), Groq LLM, and Cartesia (TTS). End-to-end latency-optimized pipeline for conversational AI use cases.
 `Python` `Deepgram` `Groq` `Cartesia`
 
-**[Customer Segmentation & Revenue Forecasting](https://github.com/LasyaRamachandruni)**
+**Customer Segmentation & Revenue Forecasting**
 K-Means clustering + linear regression on retail datasets. Improved budget prediction accuracy by 28% and enabled targeted strategic planning.
 `Python` `Scikit-learn` `SQL` `Pandas`
 
