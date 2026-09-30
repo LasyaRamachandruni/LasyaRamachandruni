@@ -16,6 +16,10 @@ I build systems at the boundary between model experimentation and production rel
 Evaluation harness that runs tool-using agents through a suite of tasks with automatic checks, recording full step-by-step traces. Model-agnostic across Anthropic, OpenAI and local Ollama models; measuring success rate, consistency, cost and prompt-injection resistance.
 `Python` `LLM Agents` `Evaluation` `Prompt Injection` `pytest`
 
+**[LLM Inference from Scratch](https://github.com/LasyaRamachandruni/llm-inference-from-scratch)** — KV Cache, Batching & Speculative Decoding
+GPT-2 inference written from the ground up in PyTorch, with the core serving techniques implemented by hand and verified against the baseline. KV cache keeps per-token latency flat (**47×** faster at 1,000 tokens of context); batched decoding with padding masks gives **8.2×** throughput; speculative decoding with cache rollback produces output identical to the target model, with a statistical test proving the sampling distribution is exact.
+`Python` `PyTorch` `Transformers` `LLM Inference` `Speculative Decoding`
+
 **[MiniVLA Benchmark](https://github.com/LasyaRamachandruni/minivla-benchmark)** — Vision-Language-Action Inference Benchmarking
 CLI toolkit that measures p50/p95/p99 latency, throughput and memory for VLA models, then applies INT8 quantization and structured pruning. Cut SmolVLM-256M model size by **77%** (489 → 114 MB) and latency by **12%** with pruning. Scales inference with Ray actors, pipeline-parallel stages, Ray Serve endpoints and Ray Data batch jobs.
 `Python` `PyTorch` `Hugging Face` `Ray` `Ray Serve` `ONNX Runtime`
