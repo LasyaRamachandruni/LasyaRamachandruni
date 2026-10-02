@@ -29,7 +29,7 @@ Unified CLI for pruning, quantization, and ONNX-based benchmarking. Deployed and
 `Python` `ONNX` `PyTorch` `TensorFlow` `Raspberry Pi` `Jetson Nano`
 
 **[NeuralEdge](https://github.com/LasyaRamachandruni/NeuralEdge)** — Edge AI for Sleep & Wearable Biosignals
-Reproducible pipelines that train compact 1D-CNN models for Sleep-EDF sleep staging and WESAD stress detection, then deploy them with TensorRT FP16/INT8 on Jetson Nano and Raspberry Pi 4. Includes quantization-aware training, pruning, power measurement and Docker images per device.
+Pipeline for compact 1D-CNN sleep-staging (Sleep-EDF) and stress-detection (WESAD) models, deployed with TensorRT FP16/INT8 on Jetson Nano and Raspberry Pi 4. Includes quantization-aware training, pruning, power measurement and Docker images per device; real dataset loading is in progress.
 `Python` `PyTorch` `TensorRT` `ONNX` `Jetson Nano` `Docker`
 
 **[Weather-Induced Infrastructure Failure Prediction](https://github.com/LasyaRamachandruni/CS156Proj)**
