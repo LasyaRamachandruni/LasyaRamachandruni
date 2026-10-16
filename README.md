@@ -17,8 +17,20 @@ Evaluation harness that runs tool-using agents through a suite of tasks with aut
 `Python` `LLM Agents` `Evaluation` `Prompt Injection` `pytest`
 
 **[LLM Inference from Scratch](https://github.com/LasyaRamachandruni/llm-inference-from-scratch)** — KV Cache, Batching & Speculative Decoding
-GPT-2 inference written from the ground up in PyTorch, with the core serving techniques implemented by hand and verified against the baseline. KV cache keeps per-token latency flat (**47×** faster at 1,000 tokens of context); batched decoding with padding masks gives **8.2×** throughput; speculative decoding with cache rollback produces output identical to the target model, with a statistical test proving the sampling distribution is exact.
+GPT-2 inference written from the ground up in PyTorch, with the core serving techniques implemented by hand and verified against the baseline. KV cache keeps per-token latency flat (**47×** faster at 1,000 tokens of context); batched decoding with padding masks gives **8.2×** throughput; a continuous-batching server gives **1.91×** the throughput of static batching (84.6 vs 44.3 tokens/s) at half the mean latency; speculative decoding with cache rollback produces output identical to the target model, with a statistical test proving the sampling distribution is exact.
 `Python` `PyTorch` `Transformers` `LLM Inference` `Speculative Decoding`
+
+**[partner-gateway](https://github.com/LasyaRamachandruni/partner-gateway)** — API Gateway for Connected-Vehicle Partners
+Stateless gateway that lets outside partners read vehicle data and send commands over REST with OAuth 2.0, talking to the vehicle service over gRPC with mutual TLS. Rate limits, retries, a circuit breaker and idempotency keys (Redis + Postgres), Pub/Sub events and signed webhooks; deploys to Cloud Run with Terraform. With 30% of upstream calls failing, retries plus the circuit breaker keep **97.6%** of requests succeeding vs **71.1%** without.
+`Python` `gRPC` `OAuth 2.0` `Redis` `PostgreSQL` `Pub/Sub` `Cloud Run` `Terraform`
+
+**[Battery Intelligence Platform](https://github.com/LasyaRamachandruni/battery-intelligence-platform)** — Li-ion Cell Analytics & Cycle-Life Prediction *(real-data run pending)*
+End-to-end platform that takes raw cycler data into a validated, partitioned lakehouse, runs process-control and reliability statistics, and predicts a cell's cycle life from its first 100 cycles with an uncertainty interval. Built on the Severson et al. (Nature Energy, 2019) dataset; model is served, monitored and mirrored by a streaming path.
+`Python` `DuckDB` `Parquet` `MLflow` `FastAPI` `Kafka` `Streamlit`
+
+**[EV Charging Analytics](https://github.com/LasyaRamachandruni/ev-charging-analytics)** — Day-Ahead Load Forecasting *(real-data backtest pending)*
+Turns raw charging-session records (Caltech ACN-Data, Palo Alto) into an hourly next-day load forecast per site with an 80% interval, served by an API and shown in a web app next to its backtest error. Query tuning cut a session-log page lookup on a 2.9-million-row table from 249 ms to 0.23 ms.
+`Python` `DuckDB` `PostgreSQL` `FastAPI` `React` `Forecasting`
 
 **[MiniVLA Benchmark](https://github.com/LasyaRamachandruni/minivla-benchmark)** — Vision-Language-Action Inference Benchmarking
 CLI toolkit that measures p50/p95/p99 latency, throughput and memory for VLA models, then applies INT8 quantization and structured pruning. Cut SmolVLM-256M model size by **77%** (489 → 114 MB) and latency by **12%** with pruning. Scales inference with Ray actors, pipeline-parallel stages, Ray Serve endpoints and Ray Data batch jobs.
